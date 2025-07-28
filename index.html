@@ -6,44 +6,61 @@
   <title>Putri Elisabeth Sibuea | Portfolio</title>
   <style>
     :root {
-      --primary-color: #808000; /* Olive */
-      --secondary-color: #556B2F; /* Dark Olive Green */
-      --background-color: #f4f7f9;
+      --primary-color: #00ab44;
+      --secondary-color: #007a33;
+      --background-color: #f9f9f9;
       --text-color: #333;
       --white: #ffffff;
+      --accent-color: #d2f4dc;
     }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: var(--background-color);
+      background: url('https://images.unsplash.com/photo-1603981342435-8f9f7b67eb9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: var(--text-color);
     }
     header {
-      background-color: var(--primary-color);
+      background-color: rgba(0, 171, 68, 0.9);
       color: var(--white);
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
     }
     section {
-      padding: 20px;
+      padding: 30px;
       max-width: 900px;
-      margin: auto;
-      background: var(--white);
-      margin-top: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-left: 5px solid var(--primary-color);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     }
-    h1, h2 {
+    h2 {
       color: var(--primary-color);
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 5px;
+      margin-bottom: 15px;
     }
     ul {
       padding-left: 20px;
     }
+    li {
+      margin-bottom: 10px;
+    }
     .contact {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 40px;
     }
     a {
       color: var(--secondary-color);
@@ -55,35 +72,35 @@
   </style>
 </head>
 <body>
-  <header>
+    <header>
     <h1 style="color: var(--white);">Putri Elisabeth Sibuea</h1>
     <p>Software Engineer | Java, Kotlin, Spring Boot</p>
   </header>
 
   <section>
-    <h2>About Me</h2>
+    <h2>👩‍💻 About Me</h2>
     <p>I am a Software Engineer with over 7 years of experience in backend and mobile application development. I specialize in Java, Spring Boot, and Android (Java/Kotlin), with a strong focus on building RESTful APIs, managing databases, and delivering full-cycle software solutions in healthcare and public sectors.</p>
   </section>
 
   <section>
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Accounting Application (Backend)</strong> – REST API service for accounting platform – <em>Nostra Technology</em></li>
-    <li><strong>Android Application – Indian Client</strong> – Custom app built with Kotlin, integrated Firebase – <em>Nostra Technology</em></li>
-    <li><strong>Android Application – Surabaya Client</strong> – Custom mobile app with modern UI – <em>Nostra Technology</em></li>
-    <li><strong>Mobile Patient App (Android & iOS)</strong> – Full-stack mobile development for hospital services using Java, Kotlin, Xamarin – <em>Kasih Group</em></li>
-    <li><strong>Hospital Information System</strong> – C#, .NET, SQL Server-based medical and admin system – <em>Kasih Group</em></li>
-    <li><strong>Accounting Information System</strong> – Desktop-based accounting management platform – <em>Kasih Group</em></li>
-    <li><strong>Employee Information System</strong> – Web application to manage HR data – <em>Kasih Group</em></li>
-    <li><strong>BPJS Bridging System</strong> – Java, Spring Boot, PostgreSQL, integrated with national health insurance – <em>Kasih Group</em></li>
-    <li><strong>Point of Sale (POS) Android App</strong> – Android SDK-based app for pharmacy/retail transactions – <em>Kasih Group</em></li>
-    <li><strong>Internal IT</strong> – System and user support for public departments – <em>Government, Pontianak</em></li>
-    <li><strong>Cybersecurity & Cloud Workshops</strong> – Participation in seminars and IT modernization training – <em>Government, Pontianak</em></li>
-  </ul>
-</section>
+    <h2>💼 Projects</h2>
+    <ul>
+      <li><strong>Accounting Application (Backend)</strong> – REST API service for accounting platform – <em>Nostra Technology</em></li>
+      <li><strong>Android Application – Indian Client</strong> – Custom app built with Kotlin, integrated Firebase – <em>Nostra Technology</em></li>
+      <li><strong>Android Application – Surabaya Client</strong> – Custom mobile app with modern UI – <em>Nostra Technology</em></li>
+      <li><strong>Mobile Patient App (Android & iOS)</strong> – Full-stack mobile development for hospital services using Java, Kotlin, Xamarin – <em>Kasih Group</em></li>
+      <li><strong>Hospital Information System (Desktop)</strong> – C#, .NET, SQL Server-based medical and admin system – <em>Kasih Group</em></li>
+      <li><strong>Accounting Information System (Desktop)</strong> – Desktop-based accounting management platform – <em>Kasih Group</em></li>
+      <li><strong>Employee Information System (Web)</strong> – Web application to manage HR data – <em>Kasih Group</em></li>
+      <li><strong>BPJS Bridging System</strong> – Java, Spring Boot, PostgreSQL, integrated with national health insurance – <em>Kasih Group</em></li>
+      <li><strong>Point of Sale (POS) Android App</strong> – Android SDK-based app for pharmacy/retail transactions – <em>Kasih Group</em></li>
+      <li><strong>Internal IT Infrastructure Support</strong> – System and user support for public departments – <em>Government, Pontianak</em></li>
+      <li><strong>Cybersecurity & Cloud Workshops</strong> – Participation in seminars and IT modernization training – <em>Government, Pontianak</em></li>
+    </ul>
+  </section>
 
   <section>
-    <h2>Technical Skills</h2>
+    <h2>🛠️ Technical Skills</h2>
     <ul>
       <li>Languages: Java, Kotlin, C#, PHP, JavaScript</li>
       <li>Frameworks: Spring Boot, .NET Framework, Xamarin</li>
@@ -94,7 +111,7 @@
   </section>
 
   <section>
-    <h2>Education</h2>
+    <h2>🎓 Education</h2>
     <ul>
       <li>Bina Nusantara University – Information Systems, GPA: 3.1</li>
       <li>Del Institute of Technology – Computer Science, GPA: 3.04</li>
@@ -102,7 +119,7 @@
   </section>
 
   <section class="contact">
-    <h2>Contact</h2>
+    <h2>📬 Contact</h2>
     <p>Email: <a href="mailto:putrielisabethsibuea@gmail.com">putrielisabethsibuea@gmail.com</a></p>
     <p>WhatsApp: +62 822 7789 7642</p>
     <p>GitHub: <a href="https://github.com/sibueaelisa" target="_blank">github.com/sibueaelisa</a></p>
